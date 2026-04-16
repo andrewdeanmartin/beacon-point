@@ -1,0 +1,57 @@
+---
+description: Beacon Point webapp design and code standards
+globs: ["*.tsx", "*.jsx", "*.css", "*.ts"]
+alwaysApply: true
+---
+
+# Beacon Point — Project Rules
+
+## Brand
+- Name: "Beacon Point" (always two words, always capitalized)
+- Tagline: "Your fixed point when everything is moving."
+- One-line pitch: "We take over the non-clinical coordination burden for the first 14 days home."
+- NON-CLINICAL service. Never use language implying medical authority.
+
+## Design
+- Fonts: Cormorant Garamond (display) + DM Sans (body) via next/font/google
+- Never use Inter, Roboto, Arial, system fonts
+- Primary: evergreen #2E4639, fern #3D5A4C, sage #5B7B6A, moss #8BA89A, mist #C5D4CB, linen #EBF0ED, ivory #F7F5F0
+- Accents: sand #D4B896, clay #9B6B5A, gulf #6B8FA3, shell #E8DDD0
+- Background: ivory #F7F5F0 for pages
+- Shadows: evergreen-tinted rgba only (not gray)
+- Radius: 8px default, 12px cards, 16px hero
+
+## Performance (Lighthouse 100 target)
+- Default to server components. Only "use client" for interactivity.
+- Use next/image for all images with explicit width/height
+- Use next/font/google for fonts (no external stylesheet links)
+- No third-party scripts on public pages
+- CSS transitions only — no animation libraries
+- All animations wrapped in @media (prefers-reduced-motion: no-preference)
+
+## Motion
+- Hover: 120ms ease-out
+- Click: 80ms ease-in
+- Reveal: 600ms cubic-bezier(0.22, 1, 0.36, 1)
+- No bouncing, no snapping, no playful overshoot. CALM.
+
+## Tone (for copy and placeholder text)
+- Concrete over abstract. Tasks over feelings.
+- Never: "journey," "empower," "holistic," "seamless," "passionate"
+- CTA: "Start a conversation" not "Book now"
+
+## Accessibility
+- 4.5:1 contrast minimum
+- 44px touch targets
+- Visible focus rings (2px solid sage, 2px offset)
+- Skip-to-content link
+- One h1, then h2 for sections, h3 for sub-sections
+- All images: descriptive alt text
+
+## Code
+- Tailwind with bp- prefix for brand colors
+- Public components: BP prefix (BPHero, BPPricing)
+- Dashboard components: Dash prefix (DashModel, DashPersona)
+- Deploy: Vercel. Use Vercel Analytics + Speed Insights.
+- No localStorage for auth — use middleware + cookies
+
