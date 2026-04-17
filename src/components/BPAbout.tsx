@@ -9,7 +9,7 @@ export function BPAbout() {
         {headshotSrc ? (
           <Image
             src={headshotSrc}
-            alt="Megan [Last Name], MPH, founder of Beacon Point"
+            alt="Megan Martin, MPH, founder of Beacon Point"
             width={200}
             height={200}
             className="h-[200px] w-[200px] rounded-xl object-cover"
@@ -22,17 +22,42 @@ export function BPAbout() {
 
         <div>
           <h2 id="about-title" className="font-display text-[24px] font-medium text-bp-fern">
-            Megan [Last Name], MPH
+            Megan Martin, MPH
           </h2>
-          <p className="mt-1 font-body text-[13px] text-[#8A9690]">Master of Public Health</p>
-          <p className="mt-4 font-body text-[15px] text-[#5E6E64] leading-[1.7]">
-            Megan [Last Name] founded Beacon Point after years of watching families struggle with
-            the coordination gap that opens the moment a loved one comes home from the hospital.
-            Based in the Sarasota area, she holds a Master of Public Health and brings [X years]
-            of experience in [relevant background]. Beacon Point exists because she believes no
-            family should have to be the default project manager for a process nobody trained them
-            for.
-          </p>
+          <p className="mt-1 font-body text-[13px] text-[#8A9690]">Founder · Master of Public Health</p>
+
+          <div className="mt-4 space-y-4 font-body text-[15px] text-[#5E6E64] leading-[1.7]">
+            <p>
+              Beacon Point was built for the moment after discharge — when the paperwork is handed
+              over, everyone is involved, and nobody is actually coordinating the next two weeks.
+              Megan leads each engagement as the single point person owning the logistics end to
+              end.
+            </p>
+            <p>
+              Families and referral partners use Beacon Point when they need a calm, structured
+              operator who can book follow-ups, reconcile a medication list across sources, and
+              keep every party aligned — without crossing into clinical care.
+            </p>
+          </div>
+
+          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+            <div className="rounded-xl bg-bp-linen p-4">
+              <p className="font-display text-[14px] font-medium text-bp-fern">What we do</p>
+              <ul className="mt-2 space-y-1 font-body text-[13px] text-[#5E6E64]">
+                <li>Appointment scheduling and confirmation</li>
+                <li>Medication list organization and routing questions</li>
+                <li>Cross-party coordination + daily written updates</li>
+              </ul>
+            </div>
+            <div className="rounded-xl bg-bp-linen p-4">
+              <p className="font-display text-[14px] font-medium text-bp-fern">What we don’t do</p>
+              <ul className="mt-2 space-y-1 font-body text-[13px] text-[#5E6E64]">
+                <li>No medical advice or treatment recommendations</li>
+                <li>No hands-on personal care</li>
+                <li>No hiring or scheduling aides</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>

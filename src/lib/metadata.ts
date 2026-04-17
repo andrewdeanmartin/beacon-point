@@ -8,7 +8,7 @@ export const siteMetadata: Metadata = {
   metadataBase: new URL(BP.siteUrl),
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Beacon Point — Your fixed point when everything is moving",
+    title: "Beacon Point — The calm in the storm",
     description:
       "14-day hospital-to-home transition coordination for Sarasota families. $2,750 fixed price. Daily updates. Nothing dropped.",
     url: BP.siteUrl,
@@ -20,7 +20,7 @@ export const siteMetadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Beacon Point — Private transition navigation, Sarasota Florida",
+        alt: "Beacon Point — Patient Advocate, Sarasota Florida",
       },
     ],
   },

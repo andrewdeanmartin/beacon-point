@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "How do I get started?",
-    a: "Call (941) 555-0142 or email megan@beaconpointcare.com. We schedule a 15-minute triage call to confirm fit, urgency, and scope. If we're a good match, we can start the same day the engagement letter is signed. We respond to all inquiries within 4 hours.",
+    a: "Call (941) 385-5872 or email megan@beaconpointcare.com. We schedule a 15-minute triage call to confirm fit, urgency, and scope. If we're a good match, we can start the same day the engagement letter is signed. We respond to all inquiries within 4 hours.",
   },
   {
     q: "What happens after the 14 days?",
