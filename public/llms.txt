@@ -6,7 +6,7 @@
 > Founded by Megan Martin, MPH.
 
 ## Main pages
-- [Home](https://beaconpointcare.com/): Overview of service, pricing, how to start
+- [Home](https://beaconpoint.health/): Overview of service, pricing, how to start
 
 ## Key facts
 - Location: Sarasota, Florida (also serves Lakewood Ranch, Bradenton, Venice, Longboat Key)
@@ -15,5 +15,5 @@
 - Founder credential: Master of Public Health (MPH)
 - Non-clinical coordination only
 - Phone: (941) 385-5872
-- Email: megan@beaconpointcare.com
+- Email: megan@beaconpoint.health
 

@@ -118,7 +118,7 @@ export function faqSchema(): JsonLd {
         name: "How do I get started with Beacon Point?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Call (941) 385-5872 or email megan@beaconpointcare.com. We schedule a 15-minute triage call to confirm fit, urgency, and scope. If we're a good match, we can start the same day the engagement letter is signed. We respond to all inquiries within 4 hours.",
+          text: "Call (941) 385-5872 or email megan@beaconpoint.health. We schedule a 15-minute triage call to confirm fit, urgency, and scope. If we're a good match, we can start the same day the engagement letter is signed. We respond to all inquiries within 4 hours.",
         },
       },
       {

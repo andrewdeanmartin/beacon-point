@@ -42,7 +42,7 @@ Analytics:        Vercel Web Analytics + Speed Insights (zero config, no cookies
 Images:           next/image (auto WebP, lazy loading, no CLS)
 API:              Single serverless function (deferred — for dashboard LLM)
 CMS:              None at launch. Megan texts Andrew for edits.
-Domain:           beaconpointcare.com (or chosen variant)
+Domain:           beaconpoint.health (or chosen variant)
 ```
 
 ### What ships now (Phase 1 — today)

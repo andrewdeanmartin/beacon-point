@@ -27,5 +27,5 @@ Disallow: /founder
 Disallow: /login
 Disallow: /api/
 
-Sitemap: https://beaconpointcare.com/sitemap.xml
+Sitemap: https://beaconpoint.health/sitemap.xml
 
