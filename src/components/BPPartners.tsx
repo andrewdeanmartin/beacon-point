@@ -46,16 +46,6 @@ export function BPPartners() {
           We close the loop on every referral.
         </p>
       </div>
-
-      <div className="mt-6">
-        <a
-          href="/partner-one-pager.pdf"
-          download
-          className="inline-flex items-center justify-center rounded-lg border border-bp-fern px-5 py-2.5 text-[14px] font-medium text-bp-fern transition-colors [transition-duration:var(--bp-hover)] hover:bg-bp-fern hover:text-bp-ivory"
-        >
-          Download the partner one-pager (PDF)
-        </a>
-      </div>
     </section>
   );
 }

@@ -24,8 +24,8 @@ export function BPFooter() {
 
         <div className="mt-4 flex items-center justify-between gap-4">
           <p className="font-body text-[11px] text-[#8A9690]">© 2026 Beacon Point</p>
-          <a href="/login" className="font-body text-[11px] text-[#8A9690] hover:underline">
-            Founder access
+          <a href="/founder" className="font-body text-[11px] text-[#8A9690] hover:underline">
+            Founder
           </a>
         </div>
       </div>

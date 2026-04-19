@@ -71,7 +71,7 @@ export default function RootLayout({
       <body className="bg-bp-ivory text-[#2A3B32] font-body antialiased min-h-full flex flex-col">
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-bp-ivory focus:px-4 focus:py-3 focus:shadow-bp-md"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-bp-ivory focus:px-4 focus:py-3 focus:shadow-bp-md"
         >
           Skip to content
         </a>
